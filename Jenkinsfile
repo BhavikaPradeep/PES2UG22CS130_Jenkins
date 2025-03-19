@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ main/hello.cpp -o main/hello_exec'
+                    sh 'g++ main/hello.cp -o main/hello_exec'
                 }
             }
         }
